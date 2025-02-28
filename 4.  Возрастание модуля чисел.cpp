@@ -11,7 +11,7 @@ void printSorted(const std::vector<int>& vec) {
     int left = pos - 1;
     int right = pos;
 
-    while (left >= 0 || right < vec.size()) { //печать элементов с первого неотрицательного
+    while (left >= 0 || right < vec.size()) { 
         if (left < 0) {
             std::cout << vec[right++] << ' ';
         }
